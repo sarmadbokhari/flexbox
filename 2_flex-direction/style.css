@@ -21,11 +21,18 @@
 
 
 .container {
-  /*entire width*/
-  /*display: flex;*/
-
-  /*width of content*/
-  display: inline-flex;
-  
+  display: flex;
   border: 10px solid goldenrod;
+  min-height: 100vh;
+
+  /*default of any flex container*/
+  /*will stack right beside each other. Main axis from left to right. Cross axis from top to bottom. */
+  flex-direction:row;
+  /*reverses main axis*/
+  /*flex-direction:row-reverse;*/
+
+  /*will stack on top of each other. Main axis from top to bottom. Cross axis from left to right.*/
+  flex-direction:column;
+  /*reverses main axis*/
+  /*flex-direction: column-reverse;*/
 }
