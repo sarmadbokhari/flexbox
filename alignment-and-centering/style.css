@@ -18,3 +18,14 @@
 .box8 { background:#bdc3c7;}
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
+
+
+.container {
+  /*entire width*/
+  /*display: flex;*/
+
+  /*width of content*/
+  display: inline-flex;
+  
+  border: 10px solid goldenrod;
+}
