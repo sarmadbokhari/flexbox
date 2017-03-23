@@ -8,7 +8,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* default styles for a box */
 .box {
   color: white;
-  font-size: 20px;
+  font-size: 50px;
   text-align: center;
   text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
   padding: 10px;
@@ -30,13 +30,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display: flex;
   border: 10px solid mistyrose;
-
-  /*justify-content: flex-start;
-  justify-content: flex-end;*/
+  /*must have a height to vertically align*/
+  height: 100vh;
   justify-content: center;
-  /*justify-content: space-between;*/
-  /*justify-content: space-around;*/
-
+  align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+
+  /*align-items: stretch; /* default */*/
+  /*align-items: baseline; /* lines up text */*/
 }
