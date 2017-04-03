@@ -42,8 +42,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
   /*give box1 twice as much of the empty space*/
   flex-grow: 2;
-
   flex-shrink: 2;
+
+  /*short-hand*/
+  flex: 2 2 400px;
 }
 
 .box2 {
@@ -52,4 +54,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex-grow: 1;
 
   /*default flex-shrink is 1*/
+
+  /*short-hand*/
+  flex: 1 1 400px;
 }
